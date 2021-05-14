@@ -12,10 +12,16 @@
     }],
     "keywords": ["hammock", "hack", "hacklang", "library", "mock", "mocking", "test", "testing", "php"],
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chrisopperwall-qz/fb_intercept_polyfill"
+        }
+    ],
     "require": {
         "hhvm": ">=3.24",
         "hhvm/hhvm-autoload": "^1|^2|^3",
-        "hhvm/hsl": ">=1.4 <5",
-        "quizlet/fb_intercept_polyfill": "^1|^2"
+        "hhvm/hsl": ">=1.4.2 <5",
+        "quizlet/fb_intercept_polyfill": "dev-add-types-to-php-lambdas-for-strict-mode"
     }
 }
